@@ -1,0 +1,2 @@
+serviceClass: com.lior.packagestatus.client.PackageStatusService
+path: 3A5CAA902D800C1E040FC3F33DA0DC03.gwt.rpc
