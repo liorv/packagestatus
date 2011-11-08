@@ -32,7 +32,7 @@ public class PackageStatusLoader
         String[] tokens = line.split(",");
         String packageNum = tokens[0];
         String status = tokens[1];
-        String cause = tokens[2];
+        String cause = (tokens.length > 2) ? tokens[2] : "n/a";
         retval.add(new PackageStatusDO(packageNum, status, cause));
       }
     }
